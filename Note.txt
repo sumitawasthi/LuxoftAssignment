@@ -1,0 +1,16 @@
+Please build the project to create jar and then execute the batch file.
+
+Steps to create jar-
+
+1.) Extract the SudokoValidator.zip.
+
+2.) Build the project using command line with below command inside the extract folder-
+	mvn clean install
+
+3.) Run the command using command line to execute the application
+	validate.bat sample.txt
+For better purpose I have attached the sample file to read and execute the sudoko verification program, please give any file according to your test.
+
+4.) In order to generate the test report please run the following command using command line on the source code -
+	mvn surefire-report:report
+Test report will be generated inside target/site folder and will be html based.
